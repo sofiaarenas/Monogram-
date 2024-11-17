@@ -1,4 +1,4 @@
-# Monogram-
+# Monogram
 Project: Monogramming your Pi
 
 # Author
@@ -9,6 +9,9 @@ My project displays my initials using a Raspberry Pi, "SA," in capital letters. 
 
 # Instructions
 To complile my program, use the following command:
+
 cc -o sarenas sarenas.c -L ~/lib -I ~/include -lsense
+
 To run the program, execute:
+
 ./sarenas
